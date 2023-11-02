@@ -16,6 +16,8 @@
 		3131F2CC2AF4345A0007FE96 /* CustomAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131F2CB2AF4345A0007FE96 /* CustomAlertViewTests.swift */; };
 		3131F2D62AF4345A0007FE96 /* CustomAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131F2D52AF4345A0007FE96 /* CustomAlertViewUITests.swift */; };
 		3131F2D82AF4345A0007FE96 /* CustomAlertViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131F2D72AF4345A0007FE96 /* CustomAlertViewUITestsLaunchTests.swift */; };
+		3131F2E62AF4359B0007FE96 /* AlertWithButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3131F2E52AF4359B0007FE96 /* AlertWithButton.xib */; };
+		3131F2EA2AF438330007FE96 /* AlertViewWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131F2E92AF438330007FE96 /* AlertViewWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3131F2D12AF4345A0007FE96 /* CustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3131F2D52AF4345A0007FE96 /* CustomAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewUITests.swift; sourceTree = "<group>"; };
 		3131F2D72AF4345A0007FE96 /* CustomAlertViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3131F2E52AF4359B0007FE96 /* AlertWithButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertWithButton.xib; sourceTree = "<group>"; };
+		3131F2E92AF438330007FE96 /* AlertViewWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		3131F2B32AF434590007FE96 /* CustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				3131F2E42AF435860007FE96 /* alertWithButton */,
 				3131F2B42AF434590007FE96 /* AppDelegate.swift */,
 				3131F2B62AF434590007FE96 /* SceneDelegate.swift */,
 				3131F2B82AF434590007FE96 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				3131F2D72AF4345A0007FE96 /* CustomAlertViewUITestsLaunchTests.swift */,
 			);
 			path = CustomAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		3131F2E42AF435860007FE96 /* alertWithButton */ = {
+			isa = PBXGroup;
+			children = (
+				3131F2E52AF4359B0007FE96 /* AlertWithButton.xib */,
+				3131F2E92AF438330007FE96 /* AlertViewWithButton.swift */,
+			);
+			path = alertWithButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3131F2E62AF4359B0007FE96 /* AlertWithButton.xib in Resources */,
 				3131F2C12AF4345A0007FE96 /* LaunchScreen.storyboard in Resources */,
 				3131F2BE2AF4345A0007FE96 /* Assets.xcassets in Resources */,
 				3131F2BC2AF434590007FE96 /* Main.storyboard in Resources */,
@@ -261,6 +276,7 @@
 				3131F2B92AF434590007FE96 /* ViewController.swift in Sources */,
 				3131F2B52AF434590007FE96 /* AppDelegate.swift in Sources */,
 				3131F2B72AF434590007FE96 /* SceneDelegate.swift in Sources */,
+				3131F2EA2AF438330007FE96 /* AlertViewWithButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
