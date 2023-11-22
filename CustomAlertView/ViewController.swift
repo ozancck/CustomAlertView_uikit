@@ -17,8 +17,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonClicked(_ sender: Any) {
+        
+        /*
         let alertView = AlertViewWithButton(title: "Bilgi", messageText: "Plese Take Yourself From Bad People!")
         alertView.showAlert()
+        */
+        
+        let succesAlert1 = SuccesAlert1(mainTitle: "Succes", descriptionTitle: "You Did That Broo! Congrats!!!")
+        succesAlert1.showAlert()
     }
     
 }
